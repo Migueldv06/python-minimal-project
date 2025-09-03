@@ -1,5 +1,3 @@
-# Nome do arquivo: run_test.py
-
 import datetime
 import sys
 
