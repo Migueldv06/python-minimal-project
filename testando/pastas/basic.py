@@ -3,7 +3,7 @@ import os
 import time
 import datetime
 
-def log(message):
+de lo(message):
     """Função simples para imprimir no log com timestamp e flush."""
     timestamp = datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d %H:%M:%S UTC')
     print(f"[{timestamp}] {message}")
