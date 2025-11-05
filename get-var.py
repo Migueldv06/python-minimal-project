@@ -1,8 +1,6 @@
 import os
 
-NOME_VARIAVEL = 'VAR'
-
-valor_variavel = os.getenv(NOME_VARIAVEL)
+valor_variavel = os.getenv('VAR')
 
 print(f"Buscando a variável de ambiente: **{NOME_VARIAVEL}**")
 print("-" * 40)
