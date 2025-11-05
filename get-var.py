@@ -1,6 +1,6 @@
 import os
 
-VAR = 'VAR'
+NOME_VARIAVEL = 'VAR'
 valor_variavel = os.getenv(VAR)
 
 print(f"Buscando a variável de ambiente: **{NOME_VARIAVEL}**")
